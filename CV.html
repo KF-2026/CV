@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Killian Fouquet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv6Jxkndh-cSDg6w7ir71IKkOJDDnj8OgT9aPYBROVFg-mFV-6DfoqpgyxddJZMTlEr8TqlXdgQrNXuUWssQXpZruJvROU70n84cgYjiLyc5dKZsZAAHkT2-TuGIIjjw2JPlDXmMITL4Z4f_hBFpEZNxjRdh4nmuAq9XZjup5fDeFAB8mOeJsGs_Vof77F/s1920/Design%20sans%20titre%20(2).jpg');
+            background-attachment: fixed;
+            background-size: 100%; /* Pour dézoomer l'image */
+            background-repeat: no-repeat;
+            background-position: center center; /* Centre l'image */
+        }
+        header {
+            padding: 2em;
+            text-align: center; /* Centrer le texte */
+            color: white;
+            font-size: 10px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; /* Centrer horizontalement les éléments */
+            background-color: #333;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1); /* Fond semi-transparent */
+            z-index: 1;
+        }
+        header h1 {
+            z-index: 2;
+            margin: 0;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: -90px;
+            left: 50%; /* Centrer horizontalement */
+            transform: translateX(-50%);
+            border: 3px solid lightgray;
+            z-index: 2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 75px; /* Ajustez cette valeur pour compenser la photo de profil */
+            margin-bottom: 50px; /* Ajout d'une marge inférieure pour séparer du pied de page */
+        }
+        .section-container {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc; /* Bordure grise de 1 pixel */
+            border-radius: 5px; /* Coins arrondis */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 5px;
+            color: #333;
+        }
+        .section h3 {
+            margin: 0;
+            color: #0066cc;
+        }
+        .section p, .section ul {
+            margin: 5px 0;
+            color: #333;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px; /* Ajout d'une marge supérieure pour séparer du contenu */
+        }
+
+        @media print {
+            body, .container {
+                width: 210mm; /* Largeur A4 */
+                height: 297mm; /* Hauteur A4 */
+                margin: 0 auto;
+            }
+            header, footer {
+                display: none; /* Masquer le header et le footer lors de l'impression */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Killian Fouquet</h1>
+        <img src="https://media.licdn.com/dms/image/D4E03AQHrIVRBuuVW1Q/profile-displayphoto-shrink_200_200/0/1671627125370?e=1726099200&v=beta&t=P88Vhy5A0LPYN7ZEO5ycKjgBv5Qrp0ZrovJE403HaE4" alt="Photo de Killian Fouquet">
+    </header>
+    <div class="container">
+        <div class="section-container">
+            <h2>À propos de moi</h2>
+            <p>Apprenti Ingénieur Méthodes/Amélioration Continue, à l'ICAM Vendée.</p>
+        </div>
+        
+        <div class="section-container">
+            <h2>Expérience</h2>
+            <div>
+                <h3>Apprenti Ingénieur Méthodes/Amélioration Continue</h3>
+                <p><a href="https://hofica.com/" target="_blank">Groupe HOFICA</a> | Sept 2023 - Présent | Saint-André-de-la-Marche, Pays de la Loire, France</p>
+                <ul>
+                    <li>Lean Management</li>
+                    <li>Réimplantation de l'atelier, standardisation, optimisation des flux et de l'espace</li>
+                    <li>Création d'Excel automatisés (vba)</li>
+		    <li>Utilisation de base dedonnée (ERP,Charge/Capa)</li>
+                    <li>Mise en œuvre de processus critiques</li>
+                    <li>Adaptation et optimisation de poste de travail</li>
+                </ul>
+                <p><a href="https://hofica.com/offres/ingenieur-methodes-h-f/" target="_blank">Fiche de poste</a></p>
+            </div>
+            <div>
+                <h3>Technicien de Bureau d'Études</h3>
+		<p>Stagaire (8 semaines) puis embauche au terme du stage</p>
+                <p><a href="https://www.septi.fr/" target="_blank">SEPTI</a> | Mai 2022 - Août 2022 | Cholet, Pays de la Loire, France</p>
+                <ul>
+                    <li>Conception et réalisation d'outils de coupe pour les industries du cuir et du textile</li>
+                    <li>Création de programmes d'usinage pour centres de coupe, tables de coupe et jets d'eau</li>
+                    <li>Opérateur sur centre d'usinage et table de découpe</li>
+                    <li>Contrôle qualité d'outils de filetage sur presse</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Opérateur en stage</h3>
+                <p><a href="https://www.demgy.com/en/page/facilities/demgy-atlantique" target="_blank">DEMGY Atlantique</a> | Octobre 2021 | Gétigné, Pays de la Loire, France</p>
+                <ul>
+                    <li>Découverte de la multiplasturgie</li>
+                    <li>Apprentissage des procédes et methode de fabrication</li>
+                    <li>Découverte du secteur R&D, chaussure 100% recyclé</li>
+                    <li>Rapport sur les améliorations et optimisation de la ligne</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section-container">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Conception assisté par ordinateur <br> → Solidworks, Inventor, Mastercam</li>
+		<br>
+               	<li>Informatique <br> → Excel (VBA), Programmation (pyhton/C/html) </li>
+		<br>
+                <li>Methodes Industrielle <br> → Lean management</li>
+            </ul>
+        </div>
+        
+        <div class="section-container">
+            <h2>Diplômes</h2>
+            <p><strong><a href="https://www.icam.fr/formations/enseignement-superieur/cycles-ingenieurs/ingenieur-generaliste-icam-arts-et-metiers-sous-statut-apprenti/" target="_blank">ICAM - Institut Catholique d'Arts et Métiers</a></strong></p>
+            <p>Ingénieur généraliste (Septembre 2021 - Septembre 2026) <I> En cours </I></p>
+            <p><strong>Brevet Technicien Supérieur (BTS)</strong></p>
+            <p>Conception des Produits Industriels (Septembre 2021 - Juin 2023)</p>
+        </div>
+        
+        <div class="section-container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:killian.fouquet@2026.icam.fr" target="_blank">killian.fouquet@2026.icam.fr</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/fouquet-killian" target="_blank">linkedin.com/in/fouquet-killian</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Killian Fouquet</p>
+    </footer>
+</body>
+</html>
